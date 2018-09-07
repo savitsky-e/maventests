@@ -1,4 +1,4 @@
-package selenium-java;
+package seleniumjava;
 
 /**
  * Hello world!

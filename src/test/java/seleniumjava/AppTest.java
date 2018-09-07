@@ -1,4 +1,4 @@
-package selenium-java;
+package seleniumjava;
 
 import static org.junit.Assert.assertTrue;
 
@@ -11,12 +11,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class AppTest 
 {
     public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         new ChromeDriver();
     }
     }
-    @Test
+  /*  @Test
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
-    }
-}
+    }*/
+
